@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.desktop {
+    margin-top: 0.5vw;
+    position: absolute;
+    left: 0;
+}
+
+.desktop img {
+    width: 5.124450951683748vw;
+    height: 4.831625183016105vw;
+}
+
+.shortcut {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shortcut p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 0.0612369871402327vw 0.0612369871402327vw rgba(0, 0, 0, 0.664);
+    font-size: 0.8784773060029283vw;
+    -webkit-text-stroke: 0.0292825768667643vw #000;
+    position: relative;
+    bottom: 1.281112737920937vw;
+    cursor: default;
+}
+
+.taskbar {
+    display: flex;
+    background-color: #202020;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.4407027818448vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    box-sizing: border-box;
+    background-color: #202020;
+    border-radius: 0.3660322108345534vw;
+    height: 2.928257686676428vw;
+    width: 3.001464128843338vw;
+    margin-bottom: 0.1464128843338214vw;
+}
+
+.app:hover {
+    background-color: #2d2d2d;
+}
+
+footer > * {
+    position: fixed;
+    bottom: 0;
+}
+
+.right {
+    right: 0;
+}
+
+img[src="img/right.png"] {
+    width: 17.27672035139092vw;
+    height: 3.4407027818448vw;
+}
